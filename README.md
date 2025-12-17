@@ -30,11 +30,6 @@ Before accessing storage, you need permission:
 ```
 termux-setup-storage
 ```
-2️⃣ Navigate to Storage
-```
- cd ~/storage
-
-```
 pkg update
 ```
 ### 2️⃣ Upgrade installed packages
