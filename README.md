@@ -104,7 +104,6 @@ sound.mp3 for command sound
 
 If an .mp3 file exists in the following directory:
 
-If you hear the sound → setup is correct ✅
 ```
 cd data/data/com.termux/files/home/storage
 ```
@@ -112,7 +111,7 @@ then the sound system is correctly set up and audio will play when you run this 
 ```
 mpv --no-terminal /data/data/com.termux/files/home/storage/sound.mp3
 ```
-✅ What This Means
+### ✅ What This Means
 
 If you hear sound → MPV is installed and working
 
@@ -123,7 +122,7 @@ Termux has access to storage
 Your command sound feature will work properly
 
 
-⚠️ Important Notes
+### ⚠️ Important Notes
 
 The file must exist in the directory
 
