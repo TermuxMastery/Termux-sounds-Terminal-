@@ -36,6 +36,7 @@ pkg update
 ```
 pkg upgrade 
 ```
+```
 ### 3️⃣ Update and upgrade in one go (automatic yes)
 ```
 pkg update -y && pkg upgrade -y
