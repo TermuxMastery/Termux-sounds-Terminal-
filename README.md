@@ -52,9 +52,9 @@ All sound files must be placed in this directory:
 
 1️⃣ Termux Startup Typing Sound
 
-🟢 When Termux starts, text is displayed letter by letter and this sound is played:
+🟢 When Termux starts, text is displayed letter by letter and with sound 
 
-Howareyou 
+How are you 
 
 ✔ Used for startup typing animation
 ✔ Plays automatically when Termux launches
