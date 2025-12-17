@@ -35,7 +35,9 @@ pkg update && pkg upgrade
 ```
 ### 📁 Music Path
 ```
-cd /data/data/com.termux/files/home/storage
+/data/data/com.termux/files/home/storage
+├── howareyou.mp3
+├── sound.mp3
 ``` 
 
 ### Command for Termux 
