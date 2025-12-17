@@ -37,9 +37,6 @@ pkg update && pkg upgrade
 
 Please follow these rules carefully to ensure sounds work properly in Termux.
 
-
----
-
 ### 📂 Required Sound Directory
 
 All sound files must be placed in this directory:
