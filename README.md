@@ -30,6 +30,7 @@ Before accessing storage, you need permission:
 ```
 termux-setup-storage
 ```
+```
 pkg update && pkg upgrade
 ```
 ### 📁 Music Path
