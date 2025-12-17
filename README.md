@@ -110,7 +110,7 @@ If you hear the sound → setup is correct ✅
 
 
 
-### Command for Termux 
+### 🛠 Steps to Edit
 ```
 nano ~/.bashrc
 ```
