@@ -1,22 +1,23 @@
-### Termux Terminal                                                                       
-Termux Android Banner & Customization
+### Termux Terminal                                                     🚀 Termux Customization: Hacker-Style Terminal 🎶💻
+
 Personalize your Termux terminal with custom ASCII banners, hacker-style boot screens, typing animations, and sound effects. Fully customizable Bash scripts for Android terminal enthusiasts.
+
 Termux is an Android terminal emulator and Linux environment that runs without root.
+
 This project adds a custom banner and optional hacker-style boot effects:
 
-Custom ASCII art banner
+✨ Features
 
-Typing animation effect
+🖼 Custom ASCII Art Banner – Show your personalized banner on startup
 
-Boot sounds (.mp3 via mpv)
+⌨️ Typing Animation Effect – Text appears letter by letter
 
-ANSI color support
+🎶 Boot Sounds – Play .mp3 files using MPV
 
-Fully configurable via Bash scripts
+🌈 ANSI Color Support – Fancy green, red, and colored text
 
-
-Perfect for terminal customization, learning Bash scripting, and adding a hacker vibe to your Android terminal.
-
+🛠 Fully Configurable – Customize everything via Bash scripts                  
+Termux Android Banner & 
 ### 🌿 Termux Music Boot & Command Sound (Android)
 Customize your Termux Android terminal with music on startup and sound after every command.
 This setup uses mpv to play MP3 files stored in your Termux storage directory.
