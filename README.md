@@ -172,60 +172,66 @@ function play_sound_after_command() {
 PROMPT_COMMAND="play_sound_after_command"
 ```
 
+
 <p align="center">
-<svg width="800" height="120" viewBox="0 0 800 120" xmlns="http://www.w3.org/2000/svg">
+<svg width="900" height="140" viewBox="0 0 900 140" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- RGB Flicker Animation -->
-    <filter id="rgbFlicker">
-      <feColorMatrix type="matrix" values="
-        1 0 0 0 0
-        0 0 0 0 0
-        0 0 0 0 0
-        0 0 0 1 0">
-        <animate attributeName="values"
-          dur="0.15s"
-          repeatCount="indefinite"
-          values="
-          1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0;
-          0 1 0 0 0  1 0 0 0 0  0 0 1 0 0  0 0 0 1 0;
-          0 0 1 0 0  0 1 0 0 0  1 0 0 0 0  0 0 0 1 0
-          " />
-      </feColorMatrix>
+    <!-- Neon Glow -->
+    <filter id="neon">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
     </filter>
 
-    <!-- Glitch Shake -->
+    <!-- Cyber Flicker -->
     <animateTransform
       attributeName="transform"
       type="translate"
-      dur="0.1s"
+      dur="0.08s"
       repeatCount="indefinite"
-      values="0 0; -2 1; 2 -1; 0 0"/>
+      values="0 0;2 -1;-2 1;0 0"/>
+
+    <!-- RGB Shift -->
+    <filter id="rgbShift">
+      <feColorMatrix type="hueRotate">
+        <animate attributeName="values"
+          from="0" to="360"
+          dur="2s"
+          repeatCount="indefinite"/>
+      </feColorMatrix>
+    </filter>
   </defs>
 
-  <!-- Red Layer -->
+  <!-- Background scan line -->
+  <rect width="100%" height="100%" fill="black" opacity="0.85"/>
+
+  <!-- Red layer -->
   <text x="50%" y="60%" text-anchor="middle"
-        font-size="64"
-        font-family="Orbitron, monospace"
-        fill="#FF0000"
-        filter="url(#rgbFlicker)">
+    font-size="68"
+    font-family="Orbitron, monospace"
+    fill="#FF004C"
+    filter="url(#neon)">
     Gullkhan
   </text>
 
-  <!-- Green Offset -->
-  <text x="50.5%" y="60.5%" text-anchor="middle"
-        font-size="64"
-        font-family="Orbitron, monospace"
-        fill="#00FF00"
-        opacity="0.8">
+  <!-- Green glitch -->
+  <text x="50.6%" y="60.4%" text-anchor="middle"
+    font-size="68"
+    font-family="Orbitron, monospace"
+    fill="#00FF9C"
+    opacity="0.7">
     Gullkhan
   </text>
 
-  <!-- Blue Offset -->
-  <text x="49.5%" y="59.5%" text-anchor="middle"
-        font-size="64"
-        font-family="Orbitron, monospace"
-        fill="#00FFFF"
-        opacity="0.8">
+  <!-- Blue cyber layer -->
+  <text x="49.4%" y="59.6%" text-anchor="middle"
+    font-size="68"
+    font-family="Orbitron, monospace"
+    fill="#00CFFF"
+    opacity="0.7"
+    filter="url(#rgbShift)">
     Gullkhan
   </text>
 </svg>
