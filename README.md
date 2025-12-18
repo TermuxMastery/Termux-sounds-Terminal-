@@ -21,17 +21,17 @@ Termux Android Banner &
 ### 🌿 Termux Music Boot & Command Sound (Android)
 Customize your Termux Android terminal with music on startup and sound after every command.
 This setup uses mpv to play MP3 files stored in your Termux storage directory.
-### 1️⃣ Update package lists
-Fetches the latest list of available packages and versions.
-Does not upgrade packages yet.
-```
-pkg update && pkg upgrade
-```
 ### 📁 Termux Storage Commands
 Grant Storage Permission
 Before accessing storage, you need permission:
 ```
 termux-setup-storage
+```
+### 1️⃣ Update package lists
+Fetches the latest list of available packages and versions.
+Does not upgrade packages yet.
+```
+pkg update && pkg upgrade
 ```
 
 ### ⚡ Install MPV for Termux Sound Playback
