@@ -37,7 +37,7 @@ pkg update && pkg upgrade
 ### ⚡ Install MPV for Termux Sound Playback
 
 To enable startup and command sounds in Termux, you need the MPV media player.
-1️⃣ Install MPV
+2️⃣ Install MPV
 
 Run this command in Termux:
 ```
@@ -61,7 +61,7 @@ All sound files must be placed in this directory:
 
 ### 🎧 Sound Files & Purpose
 
-1️⃣ Termux Startup Typing Sound
+  Termux Startup Typing Sound
 
 🟢 When Termux starts, text is displayed letter by letter and with sound 
 
@@ -70,7 +70,7 @@ How are you
 ✔ Used for startup typing animation
 ✔ Plays automatically when Termux launches
 
-2️⃣ Command Enter Sound
+ 🔊 Command Enter Sound
 
 ### 🔊 When you press Enter after any command, this sound is played:
 For example ls,cd,mv,etc any cmd
