@@ -173,5 +173,5 @@ PROMPT_COMMAND="play_sound_after_command"
 ```
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=40&duration=3000&pause=500&color=FF0000,00FF00,0000FF,FF00FF,00FFFF,FFFF00&center=true&vCenter=true&width=500&height=70&lines=Gullkhan" alt="Gullkhan RGB Flicker" />
+  <img src="https://capsule-render.vercel.app/api?type=transparent&text=Gullkhan&fontColor=FF0000&fontSize=60&animation=twinkling" />
 </p>
