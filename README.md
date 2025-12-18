@@ -175,26 +175,34 @@ PROMPT_COMMAND="play_sound_after_command"
 [![YouTube](https://img.shields.io/badge/YouTube-🔥TermuxMastery🔥-ff0000?style=for-the-badge&logo=youtube&logoColor=ffffff)](https://youtube.com/@termuxmastery?si=U8LvcGiAJZES7YHE)
 
 
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="120">
-  <style>
-    @keyframes flicker {
-      0%   { fill: red; }
-      14%  { fill: orange; }
-      28%  { fill: yellow; }
-      42%  { fill: green; }
-      57%  { fill: blue; }
-      71%  { fill: indigo; }
-      85%  { fill: violet; }
-      100% { fill: red; }
-    }
-    text {
-      font-family: Arial, Helvetica, sans-serif;
-      font-size: 60px;
-      font-weight: bold;
-      text-anchor: middle;
-      dominant-baseline: middle;
-      animation: flicker 2s infinite;
-    }
-  </style>
-  <text x="50%" y="50%">Gullkhan</text>
-</svg>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Gullkhan RGB Flicker</title>
+<style>
+  @keyframes rgbFlicker {
+    0%   { color: red; }
+    14%  { color: orange; }
+    28%  { color: yellow; }
+    42%  { color: green; }
+    57%  { color: blue; }
+    71%  { color: indigo; }
+    85%  { color: violet; }
+    100% { color: red; }
+  }
+
+  .flicker {
+    font-size: 60px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    animation: rgbFlicker 2s infinite;
+    text-align: center;
+    margin-top: 100px;
+  }
+</style>
+</head>
+<body>
+  <div class="flicker">Gullkhan</div>
+</body>
+</html>
