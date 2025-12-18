@@ -143,3 +143,30 @@ Storage permission (termux-setup-storage)
 ```
 nano ~/.bashrc
 ```
+```
+clear
+
+# Welcome sound
+nohup mpv --no-terminal ~/storage/howareyou.mp3 >/dev/null 2>&1 &
+disown   # <-- hide [1]+ Done
+
+# Auto typing text
+text="How are you ❤️"
+for ((i=0; i<${#text}; i++)); do
+  printf "%s" "${text:$i:1}"
+  sleep 0.08
+done
+echo ""
+
+# Play sound after every command
+function play_sound_after_command() {
+    # Kill previous sound if still running
+    pkill -f "mpv --no-terminal ~/storage/sound.mp3" 2>/dev/null
+    
+    # Play new sound in background and disown
+    nohup mpv --no-terminal ~/storage/sound.mp3 >/dev/null 2>&1 &
+    disown   # <-- hide [2]+ Done
+}
+
+PROMPT_COMMAND="play_sound_after_command"
+```
