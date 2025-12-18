@@ -172,9 +172,4 @@ function play_sound_after_command() {
 PROMPT_COMMAND="play_sound_after_command"
 ```
 
-Welcome to **TermuxMastery** — your destination for mastering Termux from
-🔹 Zero to Advanced  
-🔹 Useful Termux commands  
-🔹 Real-world projects and tutorials  
-🔹 Android command-line power unleashed  
-Check out the channel here: https://youtube.com/@termuxmastery?si=U8LvcGiAJZES7YHE
+[![YouTube](https://img.shields.io/badge/YouTube-TermuxMastery-red?logo=youtube)](https://youtube.com/@termuxmastery?si=U8LvcGiAJZES7YHE)
