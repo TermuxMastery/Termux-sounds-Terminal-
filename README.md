@@ -143,6 +143,7 @@ Storage permission (termux-setup-storage)
 ```
 nano ~/.bashrc
 ```
+And Paste this code 👇 and save this code CTRL x and y enter 
 ```
 clear
 
