@@ -175,16 +175,3 @@ PROMPT_COMMAND="play_sound_after_command"
 [![YouTube](https://img.shields.io/badge/YouTube-🔥TermuxMastery🔥-ff0000?style=for-the-badge&logo=youtube&logoColor=ffffff)](https://youtube.com/@termuxmastery?si=U8LvcGiAJZES7YHE)
 
 
-[![YouTube](https://img.shields.io/badge/YouTube-TermuxMastery-ff0000?style=for-the-badge&logo=youtube&logoColor=ffffff&labelColor=ff7f00)](https://youtube.com/@termuxmastery?si=U8LvcGiAJZES7YHE)
-
-
-
-[![YouTube](https://img.shields.io/badge/YouTube-TermuxMastery-%2300FF00?style=for-the-badge&logo=youtube&logoColor=FF00FF)](https://youtube.com/@termuxmastery?si=U8LvcGiAJZES7YHE)
-
-
-
-
-[![YT Red](https://img.shields.io/badge/YouTube-Red-FF0000?style=for-the-badge&logo=youtube&logoColor=ffffff)](https://youtube.com/@termuxmastery?si=U8LvcGiAJZES7YHE)
-[![YT Orange](https://img.shields.io/badge/YouTube-Orange-FF7F00?style=for-the-badge&logo=youtube&logoColor=ffffff)](https://youtube.com/@termuxmastery?si=U8LvcGiAJZES7YHE)
-[![YT Yellow](https://img.shields.io/badge/YouTube-Yellow-FFFF00?style=for-the-badge&logo=youtube&logoColor=ffffff)](https://youtube.com/@termuxmastery?si=U8LvcGiAJZES7YHE)
-[![YT Green](https://img.shields.io/badge/YouTube-Green-00FF00?style=for-the-badge&logo=youtube&logoColor=ffffff)](https://youtube.com/@termuxmastery?si=U8LvcGiAJZES7YHE)
