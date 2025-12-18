@@ -27,7 +27,7 @@ Before accessing storage, you need permission:
 ```
 termux-setup-storage
 ```
-### 1️⃣ Update package lists
+### ✅ Update package lists
 Fetches the latest list of available packages and versions.
 Does not upgrade packages yet.
 ```
