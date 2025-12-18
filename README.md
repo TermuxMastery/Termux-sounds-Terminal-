@@ -175,34 +175,4 @@ PROMPT_COMMAND="play_sound_after_command"
 [![YouTube](https://img.shields.io/badge/YouTube-🔥TermuxMastery🔥-ff0000?style=for-the-badge&logo=youtube&logoColor=ffffff)](https://youtube.com/@termuxmastery?si=U8LvcGiAJZES7YHE)
 
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>Gullkhan RGB Flicker</title>
-<style>
-  @keyframes rgbFlicker {
-    0%   { color: red; }
-    14%  { color: orange; }
-    28%  { color: yellow; }
-    42%  { color: green; }
-    57%  { color: blue; }
-    71%  { color: indigo; }
-    85%  { color: violet; }
-    100% { color: red; }
-  }
-
-  .flicker {
-    font-size: 60px;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    animation: rgbFlicker 2s infinite;
-    text-align: center;
-    margin-top: 100px;
-  }
-</style>
-</head>
-<body>
-  <div class="flicker">Gullkhan</div>
-</body>
-</html>
+![Gullkhan RGB Flicker](https://raw.githubusercontent.com/username/repo/main/gullkhan.gif)
