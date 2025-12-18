@@ -173,16 +173,5 @@ PROMPT_COMMAND="play_sound_after_command"
 ```
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com
-?font=Orbitron
-&size=48
-&duration=900
-&pause=200
-&color=00FFEA,00FF00,FF00FF,00FFFF,39FF14
-&center=true
-&vCenter=true
-&width=700
-&height=90
-&lines=>>+CYBER+MODE+ON+<<;GULLKHAN;TERMINAL+READY;WELCOME+HACKER"
-  />
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=45&duration=1200&pause=300&colors=FF0000,00FF00,0000FF,FF00FF,00FFFF,FFFF00&center=true&vCenter=true&width=600&height=80&lines=Gullkhan" />
 </p>
